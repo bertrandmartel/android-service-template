@@ -100,7 +100,7 @@ listenerId = listenerList.add(listener);
 ```
 
 => ``callingPid`` is client application PID gotten from `Binder.getCallingPid()`
-=> ``ListenerList`` is an object storing listener and attributing a random string value as identifier that will be returned to be able for the user to remove it
+=> ``ListenerList`` is an object storing listener and attributing a random string value as identifier that will be returned which will permit the user to remove it if necessary
 
 * Client :
 
