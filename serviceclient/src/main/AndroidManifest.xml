@@ -1,0 +1,27 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fr.bmartel.android.servicetemplate.client">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name">
+
+        <activity
+            android:name="fr.bmartel.android.servicetemplate.client.TemplateClientRoot"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="fr.bmartel.android.servicetemplate.client.TemplateClientChild"
+            android:label="@string/app_name" />
+
+    </application>
+
+</manifest>

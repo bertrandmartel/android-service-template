@@ -1,0 +1,9 @@
+release/
+.gradle
+local.properties
+/.idea/libraries
+/.idea/libraries
+.DS_Store
+build
+obj/
+service/src/main/libs
