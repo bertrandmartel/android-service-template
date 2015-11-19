@@ -229,5 +229,9 @@ public class TemplateService extends Service {
         Log.i(TAG, "onBind");
         return templateService;
     }
-
+    
+    @Override
+    public int onStartCommand(Intent intent, int flags, int startId) {
+        return START_STICKY;
+    }
 }
