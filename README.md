@@ -6,7 +6,7 @@ Project template featuring multi processing service oriented architecture in And
 
 ## General architecture
 
-![architecture](https://raw.github.com/akinaru/android-service-template/master/img/architecture.png)
+![architecture](https://raw.github.com/bertrandmartel/android-service-template/master/img/architecture.png)
 
 Target architecture is multi process. One service running on one process and several clients than can potentially run on different process.
 
@@ -33,7 +33,7 @@ interface IServiceTemplate {
 
 These interfaces are located in a project named `servicelib` which only contains aidl files :
 
-![servicelib](https://raw.github.com/akinaru/android-service-template/master/img/servicelib.png)
+![servicelib](https://raw.github.com/bertrandmartel/android-service-template/master/img/servicelib.png)
 
 Service and all clients have in their dependency : 
 
@@ -63,7 +63,7 @@ This is an Android Studio project featuring 3 modules :
 | servicelib              | library        |   fr.bmartel.android.servicetemplate.servicelib  | interfaces (AIDL)       |
 
 
-![project_structure](https://raw.github.com/akinaru/android-service-template/master/img/project_structure2.png)
+![project_structure](https://raw.github.com/bertrandmartel/android-service-template/master/img/project_structure2.png)
 
 ## Multiple activities using the same service
 
@@ -74,7 +74,7 @@ There are several options for using a service across multiple activities :
 
 In this project template, we are using singleton :
 
-![singleton2Service](https://raw.github.com/akinaru/android-service-template/master/img/singleton2Service.png)
+![singleton2Service](https://raw.github.com/bertrandmartel/android-service-template/master/img/singleton2Service.png)
 
 ## Receive notifications from client
 
@@ -176,7 +176,7 @@ Exemple :
 ./run-service.sh  -u service-debug-1.0-09112015.apk -u  serviceclient-debug-1.0-09112015.apk
 ```
 
-![script](https://raw.github.com/akinaru/android-service-template/master/img/script.png)
+![script](https://raw.github.com/bertrandmartel/android-service-template/master/img/script.png)
 
 ## Build
 
